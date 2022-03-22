@@ -12,7 +12,6 @@ body {
 /* intestazione logo */
 .logo-text {
     background: white;
-    border: 1px solid black;
     height: 80px;
     width: 100%;   
     padding: 13px;
@@ -22,15 +21,12 @@ body {
     background: url(../img/Logo.png);
     background-repeat: no-repeat;
     height: 50px;
-    width: 50px;
-    
-    display: inline-block;   
+    width: 50px;  
+    float: left; 
 }
 
 .logo-text h1 {
-    display: inline-block;
-    line-height: 12px;
-    vertical-align: 12px;
+    float: left;
     font-size: 40px;
     margin-left: 5px;
 }
@@ -69,7 +65,8 @@ main {
 
 .square #selection {
     background: white;
-    border: 1px solid grey;
+    color: lightgrey;
+    border: 1px solid lightgrey;
     font-weight: bold;
     border-radius: 5px;
     padding: 7px;
@@ -81,6 +78,7 @@ main {
     background: white;
     height: 750px;
     margin-top: 3px;
+    border-radius: 0 0 5px 5px;
 }
 /* new task */
 .container .new {
@@ -203,7 +201,7 @@ main {
 
 /* testo2_1 */
 .testo2_1 #uncheck {
-    margin-top: 2_10px;
+    margin-top: 10px;
     color: red;
     font-size: 20px;
     padding: 0 3px;
