@@ -101,7 +101,97 @@ main {
     background: deepskyblue;
     color: white;
     font-size: 12px;
-    width: 62px;
+    margin: auto;
     padding: 6px;
     border-radius: 10px;
 }
+
+/* today */
+.container .today {
+    padding: 0 75px;
+}
+/* testo1 */
+.testo1 #check {
+    margin-top: 10px;
+    color: rgb(0, 255, 128);
+}
+
+.testo1 h3 {
+    display: inline-block;
+}
+
+.testo1 h4 {
+    display: inline-block;
+    background: deepskyblue;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+/* chiusura testo1 */
+
+/* testo2 */
+.testo2 #check {
+    margin-top: 10px;
+    color: rgb(0, 255, 128);
+}
+
+.testo2 h3 {
+    display: inline-block;
+}
+
+.testo2 h4 {
+    display: inline-block;
+    background: mediumslateblue;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+/* chiusura testo2 */
+
+/* testo3 */
+.testo3 #uncheck {
+    margin-top: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+.testo3 h3 {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.testo3 h4 {
+    display: inline-block;
+    background: rgb(104, 238, 171);
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+/* chiusura testo3 */
+
+/* testo4 */
+.testo4 #check {
+    margin-top: 10px;
+    color: rgb(0, 255, 128);
+}
+
+.testo4 h3 {
+    display: inline-block;
+}
+
+.testo4 h4 {
+    display: inline-block;
+    background: orange;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+}
+/* chiusura testo4 */
