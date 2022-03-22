@@ -86,19 +86,21 @@ main {
 }
 
 .new #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.new h3 {
+.new p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .new h4 {
     display: inline-block;
     background: deepskyblue;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -110,19 +112,21 @@ main {
 }
 /* testo1 */
 .testo1 #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.testo1 h3 {
+.testo1 p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .testo1 h4 {
     display: inline-block;
     background: deepskyblue;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -131,19 +135,21 @@ main {
 
 /* testo2 */
 .testo2 #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.testo2 h3 {
+.testo2 p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .testo2 h4 {
     display: inline-block;
     background: mediumslateblue;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -152,21 +158,23 @@ main {
 
 /* testo3 */
 .testo3 #uncheck {
+    display: inline-block;
     margin-top: 10px;
     color: red;
     font-size: 20px;
 }
 
-.testo3 h3 {
+.testo3 p {
     display: inline-block;
-    margin-left: 2px;
+    margin-left: 4px;
+    font-weight: 600;
 }
 
 .testo3 h4 {
     display: inline-block;
     background: rgb(104, 238, 171);
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -175,19 +183,21 @@ main {
 
 /* testo4 */
 .testo4 #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.testo4 h3 {
+.testo4 p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .testo4 h4 {
     display: inline-block;
     background: orange;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -201,32 +211,36 @@ main {
 
 /* testo2_1 */
 .testo2_1 #uncheck {
+    display: inline-block;
     margin-top: 10px;
     color: red;
     font-size: 20px;
     padding: 0 3px;
 }
 
-.testo2_1 h3 {
+.testo2_1 p {
     display: inline-block;
+    font-weight: 600;
 }
 /* chiusura testo2_1 */
 
 /* testo2_2 */
 .testo2_2 #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.testo2_2 h3 {
+.testo2_2 p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .testo2_2 h4 {
     display: inline-block;
     background: rgb(167, 52, 77);
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -235,19 +249,21 @@ main {
 
 /* testo2_3 */
 .testo2_3 #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.testo2_3 h3 {
+.testo2_3 p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .testo2_3 h4 {
     display: inline-block;
     background: rgb(119, 182, 83);
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
@@ -256,19 +272,21 @@ main {
 
 /* testo2_4 */
 .testo2_4 #check {
+    display: inline-block;
     margin-top: 10px;
     color: rgb(0, 255, 128);
 }
 
-.testo2_4 h3 {
+.testo2_4 p {
     display: inline-block;
+    font-weight: 600;
 }
 
 .testo2_4 h4 {
     display: inline-block;
     background: deepskyblue;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     margin: auto;
     padding: 6px;
     border-radius: 10px;
