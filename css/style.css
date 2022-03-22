@@ -46,4 +46,62 @@ main {
     background: white;
     height: 50px;
     width: 100%;
+    margin-top: 40px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* pulsanti */
+.top-table .square {
+    margin: 0 80px;
+    line-height: 50px;
+    vertical-align: 50px;
+}
+
+.square #task {
+    background-color:deepskyblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+    margin-right: 4px;
+}
+
+.square #selection {
+    background: white;
+    border: 1px solid grey;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px;
+}
+/* chiusura pulsanti */
+
+/* contenuto */
+.container {
+    background: white;
+    height: 750px;
+    margin-top: 3px;
+}
+/* new task */
+.container .new {
+    padding: 40px 75px;
+}
+
+.new #check {
+    margin-top: 10px;
+    color: rgb(0, 255, 128);
+}
+
+.new h3 {
+    display: inline-block;
+}
+
+.new h4 {
+    display: inline-block;
+    background: deepskyblue;
+    color: white;
+    font-size: 12px;
+    width: 62px;
+    padding: 6px;
+    border-radius: 10px;
 }
