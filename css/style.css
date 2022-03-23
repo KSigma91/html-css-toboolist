@@ -80,215 +80,99 @@ main {
     margin-top: 3px;
     border-radius: 0 0 5px 5px;
 }
-/* new task */
-.container .new {
-    padding: 40px 75px;
+
+/* regole generali */
+.container .check {
+    display: inline-block;
+    color: lime;
+    font-size: 15px;
+    border: 1px solid lime;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;  
 }
 
-.new #check {
+.container .uncheck {
     display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
+    color: red;
+    padding: 2px;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 12px;
 }
 
-.new p {
+.container p {
     display: inline-block;
-    font-weight: 600;
+    line-height: 40px;
 }
 
-.new h4 {
+.container .blue-ticket {
     display: inline-block;
-    background: deepskyblue;
-    color: white;
-    font-size: 10px;
     margin: auto;
+    background-color: deepskyblue;
+    color: white; 
+    border-radius: 20px;
     padding: 6px;
-    border-radius: 10px;
+    font-size: 10px;
 }
+
+.container .text {
+    padding: 25px 70px;
+}
+/* chiusura regole generali */
 
 /* today */
-.container .today {
-    padding: 0 75px;
-}
-/* testo1 */
-.testo1 #check {
+.today #goals {
     display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
-}
-
-.testo1 p {
-    display: inline-block;
-    font-weight: 600;
-}
-
-.testo1 h4 {
-    display: inline-block;
-    background: deepskyblue;
-    color: white;
-    font-size: 10px;
     margin: auto;
+    background-color: rgb(136, 93, 255);
+    color: white; 
+    border-radius: 20px;
     padding: 6px;
-    border-radius: 10px;
-}
-/* chiusura testo1 */
-
-/* testo2 */
-.testo2 #check {
-    display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
-}
-
-.testo2 p {
-    display: inline-block;
-    font-weight: 600;
-}
-
-.testo2 h4 {
-    display: inline-block;
-    background: mediumslateblue;
-    color: white;
     font-size: 10px;
+}
+
+.today #recruiting {
+    display: inline-block;
     margin: auto;
+    background-color: rgb(96, 187, 134);
+    color: white; 
+    border-radius: 20px;
     padding: 6px;
-    border-radius: 10px;
-}
-/* chiusura testo2 */
-
-/* testo3 */
-.testo3 #uncheck {
-    display: inline-block;
-    margin-top: 10px;
-    color: red;
-    font-size: 20px;
-}
-
-.testo3 p {
-    display: inline-block;
-    margin-left: 4px;
-    font-weight: 600;
-}
-
-.testo3 h4 {
-    display: inline-block;
-    background: rgb(104, 238, 171);
-    color: white;
     font-size: 10px;
+}
+
+.today #mobile {
+    display: inline-block;
     margin: auto;
+    background-color: orange;
+    color: white; 
+    border-radius: 20px;
     padding: 6px;
-    border-radius: 10px;
-}
-/* chiusura testo3 */
-
-/* testo4 */
-.testo4 #check {
-    display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
-}
-
-.testo4 p {
-    display: inline-block;
-    font-weight: 600;
-}
-
-.testo4 h4 {
-    display: inline-block;
-    background: orange;
-    color: white;
     font-size: 10px;
-    margin: auto;
-    padding: 6px;
-    border-radius: 10px;
 }
-/* chiusura testo4 */
 
 /* upcoming */
-.container .upcoming {
-    padding: 40px 75px;
-}
-
-/* testo2_1 */
-.testo2_1 #uncheck {
+.upcoming #website {
     display: inline-block;
-    margin-top: 10px;
-    color: red;
-    font-size: 20px;
-    padding: 0 3px;
-}
-
-.testo2_1 p {
-    display: inline-block;
-    font-weight: 600;
-}
-/* chiusura testo2_1 */
-
-/* testo2_2 */
-.testo2_2 #check {
-    display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
-}
-
-.testo2_2 p {
-    display: inline-block;
-    font-weight: 600;
-}
-
-.testo2_2 h4 {
-    display: inline-block;
-    background: rgb(167, 52, 77);
-    color: white;
-    font-size: 10px;
     margin: auto;
+    background-color: rgb(255, 37, 73);
+    color: white; 
+    border-radius: 20px;
     padding: 6px;
-    border-radius: 10px;
-}
-/* chiusura testo2_2 */
-
-/* testo2_3 */
-.testo2_3 #check {
-    display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
+    font-size: 10px;  
 }
 
-.testo2_3 p {
+.upcoming #sales {
     display: inline-block;
-    font-weight: 600;
-}
-
-.testo2_3 h4 {
-    display: inline-block;
-    background: rgb(119, 182, 83);
-    color: white;
-    font-size: 10px;
     margin: auto;
+    background-color: rgb(117, 255, 37);
+    color: white; 
+    border-radius: 20px;
     padding: 6px;
-    border-radius: 10px;
+    font-size: 10px;  
 }
-/* chiusura testo2_3 */
-
-/* testo2_4 */
-.testo2_4 #check {
-    display: inline-block;
-    margin-top: 10px;
-    color: rgb(0, 255, 128);
-}
-
-.testo2_4 p {
-    display: inline-block;
-    font-weight: 600;
-}
-
-.testo2_4 h4 {
-    display: inline-block;
-    background: deepskyblue;
-    color: white;
-    font-size: 10px;
-    margin: auto;
-    padding: 6px;
-    border-radius: 10px;
-}
-/* chiusura testo2_4 */
